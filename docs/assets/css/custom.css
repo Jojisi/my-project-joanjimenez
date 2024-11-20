@@ -1,0 +1,90 @@
+body {
+  font-family: "Arial", sans-serif;
+  background: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.back-to-top {
+  display: none; /* Oculto por defecto */
+  position: fixed;
+  bottom: 20px; /* Distancia desde el borde inferior */
+  right: 20px; /* Distancia desde el borde derecho */
+  padding: 8px 12px; /* Tamaño del botón */
+  background-color: #000; /* Fondo negro */
+  color: #fff; /* Texto blanco */
+  font-size: 12px; /* Tamaño del texto */
+  font-weight: bold; /* Texto en negrita */
+  border-radius: 20px; /* Bordes redondeados */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Sombra */
+  cursor: pointer; /* Icono de clic */
+  z-index: 1000; /* Siempre visible encima */
+  text-align: center; /* Alineación del texto */
+  transition: all 0.3s ease; /* Animación al aparecer/desaparecer */
+}
+
+.back-to-top:hover {
+  background-color: #333; /* Fondo más claro al pasar el ratón */
+  transform: scale(1.1); /* Efecto de zoom */
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 50%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+.md-header-nav__button[href*="github"] {
+  color: #ff4500 !important; /* Cambia el color del enlace */
+  font-weight: bold !important; /* Cambia el grosor del texto */
+  font-size: 18px; /* Cambia el tamaño del texto */
+  text-decoration: underline; /* Subraya el texto */
+}
+
+/* Cambia el estilo al pasar el ratón */
+.md-header-nav__button[href*="github"]:hover {
+  color: #4caf50 !important; /* Verde al hacer hover */
+  background-color: #f5f5f5; /* Fondo claro */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Opcional: Estiliza la barra de navegación completa */
+.md-header {
+  background-color: #1e1e1e !important; /* Fondo oscuro */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+}

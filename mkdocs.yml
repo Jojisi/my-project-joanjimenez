@@ -1,0 +1,24 @@
+site_name: "Portafolio de Joan Jiménez"
+# site_url: "https://jojisi.github.io/mi-proyecto-mkdocs"
+theme:
+  name: "material"  # Tema de Material for MkDocs
+  language: "es"    # Configuración en español
+  palette:
+    primary: "teal"
+    accent: "amber"
+  font:
+    text: "Roboto"
+    code: "Fira Code"
+nav:
+  - "Inicio": index.md
+  - "Módulos":
+      - "Proyecto Intermodular": modulos/proyecto_intermodular.md
+      - "Programación": modulos/programacion.md
+extra_css:
+  - assets/css/custom.css
+extra_javascript:
+  - assets/js/custom.js
+
+repo_url: 'https://github.com/Jojisi'
+repo_name: 'GitHub'
+edit_uri: 'edit/main/docs/'
